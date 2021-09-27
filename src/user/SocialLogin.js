@@ -41,7 +41,7 @@ class SocialLogin extends Component {
         if(this.props.for === "signup"){
             return (
                 <GoogleLogin
-                    clientId="109098577332-pdeuvr6jupqu74rqq1u66vej1hno9sbl.apps.googleusercontent.com"
+                    clientId="677989803338-r3d8b7088fk9oas4l7fa2pnhto5ff89k.apps.googleusercontent.com"
                     buttonText="Signup with Google"
                     onSuccess={this.responseGoogle}
                     onFailure={this.responseGoogle}
@@ -50,7 +50,7 @@ class SocialLogin extends Component {
         } else {
             return (
                 <GoogleLogin
-                    clientId="109098577332-pdeuvr6jupqu74rqq1u66vej1hno9sbl.apps.googleusercontent.com"
+                    clientId="677989803338-r3d8b7088fk9oas4l7fa2pnhto5ff89k.apps.googleusercontent.com"
                     buttonText="Login with Google"
                     onSuccess={this.responseGoogle}
                     onFailure={this.responseGoogle}
